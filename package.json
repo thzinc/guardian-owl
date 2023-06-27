@@ -1,0 +1,14 @@
+{
+  "name": "guardian-owl",
+  "version": "0.0.0",
+  "description": "Prototype Guardian Owl PWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+.risk_score_container {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--background-alt);
+}
