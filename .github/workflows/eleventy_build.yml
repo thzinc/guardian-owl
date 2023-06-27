@@ -25,6 +25,9 @@ jobs:
 
       - name: Upload built site
         uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: _site/
   deploy:
     runs-on: ubuntu-latest
     needs: build
