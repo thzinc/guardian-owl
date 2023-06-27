@@ -155,7 +155,7 @@ function handleChangesToAnswer({
         };
         break;
       case "radio":
-        element.checked = element.value === initialValue.toString();
+        element.checked = element.value === `${initialValue}`;
         listener = () => {
           const [value = null] = Array.from(elements)
             .filter((e) => e.checked)
@@ -164,7 +164,7 @@ function handleChangesToAnswer({
         };
         break;
       default:
-        element.value = initialValue.toString();
+        element.value = `${initialValue}`;
         listener = ({ currentTarget: { value } }) => {
           setAnswer(property, valueSelector(value), onChange);
         };
