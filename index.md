@@ -115,4 +115,4 @@ Choose all that apply. If none apply, do not check any items.
 Based on your answers, your risk score is <span id="risk_score">N/A</span>, which means <span id="risk_score_description">TBD</span>.
 
 </div>
-<script type="text/javascript" src="assets/risk_calculator.js"></script>
+<script type="text/javascript" src="/assets/risk_calculator.js"></script>
