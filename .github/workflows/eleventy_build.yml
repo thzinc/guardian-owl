@@ -24,10 +24,7 @@ jobs:
         run: npm run build
 
       - name: Upload built site
-        uses: actions/upload-artifact@v3
-        with:
-          name: github-pages
-          path: _site/
+        uses: actions/upload-pages-artifact@v1
   deploy:
     runs-on: ubuntu-latest
     needs: build
