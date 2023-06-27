@@ -266,9 +266,9 @@ function calculateRiskScore({
 
 /**
  * Gets a number based on month and day that can be easily compared
- * @param {Date} d
+ * @param {Date} date
  * @returns
  */
-function getComparableBirthday(d) {
-  return (d.getMonth() + 1) * 100 + d.getDate();
+function getComparableBirthday(date) {
+  return (date.getMonth() + 1) * 100 + date.getDate();
 }
