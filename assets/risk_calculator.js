@@ -49,8 +49,6 @@ window.addEventListener("load", () => {
     valueSelector: (str) => str === "true",
     onChange: updateRiskScore,
   });
-
-  window.localStorage.addEventListener("");
 });
 
 /**
